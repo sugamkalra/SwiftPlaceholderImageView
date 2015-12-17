@@ -15,6 +15,7 @@
 		15004B6E1C22C1B800497BB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15004B6C1C22C1B800497BB4 /* LaunchScreen.storyboard */; };
 		15004B791C22C1B800497BB4 /* SwiftyPlaceholderViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15004B781C22C1B800497BB4 /* SwiftyPlaceholderViewTests.swift */; };
 		15004B841C22C1B800497BB4 /* SwiftyPlaceholderViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15004B831C22C1B800497BB4 /* SwiftyPlaceholderViewUITests.swift */; };
+		15004B931C22C1D600497BB4 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15004B921C22C1D600497BB4 /* PlaceholderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		15004B7F1C22C1B800497BB4 /* SwiftyPlaceholderViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyPlaceholderViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15004B831C22C1B800497BB4 /* SwiftyPlaceholderViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyPlaceholderViewUITests.swift; sourceTree = "<group>"; };
 		15004B851C22C1B800497BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15004B921C22C1D600497BB4 /* PlaceholderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		15004B5F1C22C1B800497BB4 /* SwiftyPlaceholderView */ = {
 			isa = PBXGroup;
 			children = (
+				15004B911C22C1C600497BB4 /* PlaceholderView */,
 				15004B601C22C1B800497BB4 /* AppDelegate.swift */,
 				15004B621C22C1B800497BB4 /* ViewController.swift */,
 				15004B641C22C1B800497BB4 /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				15004B851C22C1B800497BB4 /* Info.plist */,
 			);
 			path = SwiftyPlaceholderViewUITests;
+			sourceTree = "<group>";
+		};
+		15004B911C22C1C600497BB4 /* PlaceholderView */ = {
+			isa = PBXGroup;
+			children = (
+				15004B921C22C1D600497BB4 /* PlaceholderView.swift */,
+			);
+			name = PlaceholderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				15004B691C22C1B800497BB4 /* SwiftyPlaceholderView.xcdatamodeld in Sources */,
 				15004B631C22C1B800497BB4 /* ViewController.swift in Sources */,
+				15004B931C22C1D600497BB4 /* PlaceholderView.swift in Sources */,
 				15004B611C22C1B800497BB4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

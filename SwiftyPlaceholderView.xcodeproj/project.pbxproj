@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15004B611C22C1B800497BB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15004B601C22C1B800497BB4 /* AppDelegate.swift */; };
+		15004B631C22C1B800497BB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15004B621C22C1B800497BB4 /* ViewController.swift */; };
+		15004B661C22C1B800497BB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15004B641C22C1B800497BB4 /* Main.storyboard */; };
+		15004B691C22C1B800497BB4 /* SwiftyPlaceholderView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15004B671C22C1B800497BB4 /* SwiftyPlaceholderView.xcdatamodeld */; };
+		15004B6B1C22C1B800497BB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15004B6A1C22C1B800497BB4 /* Assets.xcassets */; };
+		15004B6E1C22C1B800497BB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15004B6C1C22C1B800497BB4 /* LaunchScreen.storyboard */; };
+		15004B791C22C1B800497BB4 /* SwiftyPlaceholderViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15004B781C22C1B800497BB4 /* SwiftyPlaceholderViewTests.swift */; };
+		15004B841C22C1B800497BB4 /* SwiftyPlaceholderViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15004B831C22C1B800497BB4 /* SwiftyPlaceholderViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15004B751C22C1B800497BB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15004B551C22C1B800497BB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15004B5C1C22C1B800497BB4;
+			remoteInfo = SwiftyPlaceholderView;
+		};
+		15004B801C22C1B800497BB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15004B551C22C1B800497BB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15004B5C1C22C1B800497BB4;
+			remoteInfo = SwiftyPlaceholderView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15004B5D1C22C1B800497BB4 /* SwiftyPlaceholderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyPlaceholderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15004B601C22C1B800497BB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15004B621C22C1B800497BB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15004B651C22C1B800497BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15004B681C22C1B800497BB4 /* SwiftyPlaceholderView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftyPlaceholderView.xcdatamodel; sourceTree = "<group>"; };
+		15004B6A1C22C1B800497BB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15004B6D1C22C1B800497BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15004B6F1C22C1B800497BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15004B741C22C1B800497BB4 /* SwiftyPlaceholderViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyPlaceholderViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15004B781C22C1B800497BB4 /* SwiftyPlaceholderViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyPlaceholderViewTests.swift; sourceTree = "<group>"; };
+		15004B7A1C22C1B800497BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15004B7F1C22C1B800497BB4 /* SwiftyPlaceholderViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyPlaceholderViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15004B831C22C1B800497BB4 /* SwiftyPlaceholderViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyPlaceholderViewUITests.swift; sourceTree = "<group>"; };
+		15004B851C22C1B800497BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15004B5A1C22C1B800497BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15004B711C22C1B800497BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15004B7C1C22C1B800497BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15004B541C22C1B800497BB4 = {
+			isa = PBXGroup;
+			children = (
+				15004B5F1C22C1B800497BB4 /* SwiftyPlaceholderView */,
+				15004B771C22C1B800497BB4 /* SwiftyPlaceholderViewTests */,
+				15004B821C22C1B800497BB4 /* SwiftyPlaceholderViewUITests */,
+				15004B5E1C22C1B800497BB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15004B5E1C22C1B800497BB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15004B5D1C22C1B800497BB4 /* SwiftyPlaceholderView.app */,
+				15004B741C22C1B800497BB4 /* SwiftyPlaceholderViewTests.xctest */,
+				15004B7F1C22C1B800497BB4 /* SwiftyPlaceholderViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15004B5F1C22C1B800497BB4 /* SwiftyPlaceholderView */ = {
+			isa = PBXGroup;
+			children = (
+				15004B601C22C1B800497BB4 /* AppDelegate.swift */,
+				15004B621C22C1B800497BB4 /* ViewController.swift */,
+				15004B641C22C1B800497BB4 /* Main.storyboard */,
+				15004B6A1C22C1B800497BB4 /* Assets.xcassets */,
+				15004B6C1C22C1B800497BB4 /* LaunchScreen.storyboard */,
+				15004B6F1C22C1B800497BB4 /* Info.plist */,
+				15004B671C22C1B800497BB4 /* SwiftyPlaceholderView.xcdatamodeld */,
+			);
+			path = SwiftyPlaceholderView;
+			sourceTree = "<group>";
+		};
+		15004B771C22C1B800497BB4 /* SwiftyPlaceholderViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				15004B781C22C1B800497BB4 /* SwiftyPlaceholderViewTests.swift */,
+				15004B7A1C22C1B800497BB4 /* Info.plist */,
+			);
+			path = SwiftyPlaceholderViewTests;
+			sourceTree = "<group>";
+		};
+		15004B821C22C1B800497BB4 /* SwiftyPlaceholderViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15004B831C22C1B800497BB4 /* SwiftyPlaceholderViewUITests.swift */,
+				15004B851C22C1B800497BB4 /* Info.plist */,
+			);
+			path = SwiftyPlaceholderViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15004B5C1C22C1B800497BB4 /* SwiftyPlaceholderView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15004B881C22C1B800497BB4 /* Build configuration list for PBXNativeTarget "SwiftyPlaceholderView" */;
+			buildPhases = (
+				15004B591C22C1B800497BB4 /* Sources */,
+				15004B5A1C22C1B800497BB4 /* Frameworks */,
+				15004B5B1C22C1B800497BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyPlaceholderView;
+			productName = SwiftyPlaceholderView;
+			productReference = 15004B5D1C22C1B800497BB4 /* SwiftyPlaceholderView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15004B731C22C1B800497BB4 /* SwiftyPlaceholderViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15004B8B1C22C1B800497BB4 /* Build configuration list for PBXNativeTarget "SwiftyPlaceholderViewTests" */;
+			buildPhases = (
+				15004B701C22C1B800497BB4 /* Sources */,
+				15004B711C22C1B800497BB4 /* Frameworks */,
+				15004B721C22C1B800497BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15004B761C22C1B800497BB4 /* PBXTargetDependency */,
+			);
+			name = SwiftyPlaceholderViewTests;
+			productName = SwiftyPlaceholderViewTests;
+			productReference = 15004B741C22C1B800497BB4 /* SwiftyPlaceholderViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15004B7E1C22C1B800497BB4 /* SwiftyPlaceholderViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15004B8E1C22C1B800497BB4 /* Build configuration list for PBXNativeTarget "SwiftyPlaceholderViewUITests" */;
+			buildPhases = (
+				15004B7B1C22C1B800497BB4 /* Sources */,
+				15004B7C1C22C1B800497BB4 /* Frameworks */,
+				15004B7D1C22C1B800497BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15004B811C22C1B800497BB4 /* PBXTargetDependency */,
+			);
+			name = SwiftyPlaceholderViewUITests;
+			productName = SwiftyPlaceholderViewUITests;
+			productReference = 15004B7F1C22C1B800497BB4 /* SwiftyPlaceholderViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15004B551C22C1B800497BB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sugam Kalra";
+				TargetAttributes = {
+					15004B5C1C22C1B800497BB4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					15004B731C22C1B800497BB4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 15004B5C1C22C1B800497BB4;
+					};
+					15004B7E1C22C1B800497BB4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 15004B5C1C22C1B800497BB4;
+					};
+				};
+			};
+			buildConfigurationList = 15004B581C22C1B800497BB4 /* Build configuration list for PBXProject "SwiftyPlaceholderView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15004B541C22C1B800497BB4;
+			productRefGroup = 15004B5E1C22C1B800497BB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15004B5C1C22C1B800497BB4 /* SwiftyPlaceholderView */,
+				15004B731C22C1B800497BB4 /* SwiftyPlaceholderViewTests */,
+				15004B7E1C22C1B800497BB4 /* SwiftyPlaceholderViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15004B5B1C22C1B800497BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15004B6E1C22C1B800497BB4 /* LaunchScreen.storyboard in Resources */,
+				15004B6B1C22C1B800497BB4 /* Assets.xcassets in Resources */,
+				15004B661C22C1B800497BB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15004B721C22C1B800497BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15004B7D1C22C1B800497BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15004B591C22C1B800497BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15004B691C22C1B800497BB4 /* SwiftyPlaceholderView.xcdatamodeld in Sources */,
+				15004B631C22C1B800497BB4 /* ViewController.swift in Sources */,
+				15004B611C22C1B800497BB4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15004B701C22C1B800497BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15004B791C22C1B800497BB4 /* SwiftyPlaceholderViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15004B7B1C22C1B800497BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15004B841C22C1B800497BB4 /* SwiftyPlaceholderViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15004B761C22C1B800497BB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15004B5C1C22C1B800497BB4 /* SwiftyPlaceholderView */;
+			targetProxy = 15004B751C22C1B800497BB4 /* PBXContainerItemProxy */;
+		};
+		15004B811C22C1B800497BB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15004B5C1C22C1B800497BB4 /* SwiftyPlaceholderView */;
+			targetProxy = 15004B801C22C1B800497BB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15004B641C22C1B800497BB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15004B651C22C1B800497BB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15004B6C1C22C1B800497BB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15004B6D1C22C1B800497BB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15004B861C22C1B800497BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15004B871C22C1B800497BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15004B891C22C1B800497BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftyPlaceholderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyPlaceholderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15004B8A1C22C1B800497BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftyPlaceholderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyPlaceholderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15004B8C1C22C1B800497BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftyPlaceholderViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyPlaceholderViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyPlaceholderView.app/SwiftyPlaceholderView";
+			};
+			name = Debug;
+		};
+		15004B8D1C22C1B800497BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftyPlaceholderViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyPlaceholderViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyPlaceholderView.app/SwiftyPlaceholderView";
+			};
+			name = Release;
+		};
+		15004B8F1C22C1B800497BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftyPlaceholderViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyPlaceholderViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftyPlaceholderView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		15004B901C22C1B800497BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftyPlaceholderViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyPlaceholderViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftyPlaceholderView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15004B581C22C1B800497BB4 /* Build configuration list for PBXProject "SwiftyPlaceholderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15004B861C22C1B800497BB4 /* Debug */,
+				15004B871C22C1B800497BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15004B881C22C1B800497BB4 /* Build configuration list for PBXNativeTarget "SwiftyPlaceholderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15004B891C22C1B800497BB4 /* Debug */,
+				15004B8A1C22C1B800497BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15004B8B1C22C1B800497BB4 /* Build configuration list for PBXNativeTarget "SwiftyPlaceholderViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15004B8C1C22C1B800497BB4 /* Debug */,
+				15004B8D1C22C1B800497BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15004B8E1C22C1B800497BB4 /* Build configuration list for PBXNativeTarget "SwiftyPlaceholderViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15004B8F1C22C1B800497BB4 /* Debug */,
+				15004B901C22C1B800497BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		15004B671C22C1B800497BB4 /* SwiftyPlaceholderView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				15004B681C22C1B800497BB4 /* SwiftyPlaceholderView.xcdatamodel */,
+			);
+			currentVersion = 15004B681C22C1B800497BB4 /* SwiftyPlaceholderView.xcdatamodel */;
+			path = SwiftyPlaceholderView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 15004B551C22C1B800497BB4 /* Project object */;
+}
